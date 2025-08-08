@@ -1,0 +1,28 @@
+// Hello World in NEXUS-VEIL Programming Language
+// Created by za3tar - NEXUS-VEIL Example
+// Repository: https://github.com/za3tar223/NEXUS-VEIL
+
+// Simple hello world program
+func main() {
+    print("Hello, NEXUS-VEIL World!");
+    print("Language created by za3tar");
+    
+    var language = "NEXUS-VEIL";
+    var creator = "za3tar";
+    var version = "1.0.0";
+    
+    print("Welcome to " + language + " programming!");
+    print("Developed by: " + creator);
+    print("Version: " + version);
+    
+    // Demonstrate basic features
+    var greeting = "Hello";
+    var name = "World";
+    var message = greeting + ", " + name + "!";
+    
+    print(message);
+    print("NEXUS-VEIL is ready to use!");
+}
+
+// Call the main function
+main();

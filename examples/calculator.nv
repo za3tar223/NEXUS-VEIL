@@ -1,0 +1,63 @@
+// Calculator Example in NEXUS-VEIL
+// Created by za3tar - Advanced Calculator Implementation
+// Repository: https://github.com/za3tar223/NEXUS-VEIL
+
+// Basic arithmetic functions
+func add(a, b) {
+    return a + b;
+}
+
+func subtract(a, b) {
+    return a - b;
+}
+
+func multiply(a, b) {
+    return a * b;
+}
+
+func divide(a, b) {
+    if (b == 0) {
+        print("Error: Division by zero!");
+        return null;
+    }
+    return a / b;
+}
+
+func power(base, exponent) {
+    var result = 1;
+    var i = 0;
+    while (i < exponent) {
+        result = result * base;
+        i = i + 1;
+    }
+    return result;
+}
+
+// Demonstration function
+func demo() {
+    print("NEXUS-VEIL Calculator Demo - Created by za3tar");
+    print("============================================");
+    
+    // Test basic operations
+    var result1 = add(15, 7);
+    var result2 = subtract(20, 8);
+    var result3 = multiply(6, 9);
+    var result4 = divide(45, 5);
+    var result5 = power(2, 8);
+    
+    print("");
+    print("Results:");
+    print("15 + 7 = " + str(result1));
+    print("20 - 8 = " + str(result2));
+    print("6 * 9 = " + str(result3));
+    print("45 / 5 = " + str(result4));
+    print("2 ** 8 = " + str(result5));
+    
+    print("Calculator demo completed!");
+}
+
+// Run the demonstration
+demo();
+
+print("");
+print("NEXUS-VEIL Calculator - Powered by za3tar");
